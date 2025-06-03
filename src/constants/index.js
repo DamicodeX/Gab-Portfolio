@@ -48,6 +48,7 @@ export const PROJECTS = [
       "Next.js",
       "Appwrite",
     ],
+    link:["https://mist-booking-appointment-platform-s.vercel.app/"]
   },
   {
     title: "College Website",
