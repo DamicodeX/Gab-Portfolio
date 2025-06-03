@@ -11,11 +11,18 @@ export const ABOUT_TEXT = `I am a dedicated and versatile frontend developer wit
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
+    year: "May 2025 - Present",
+    role: "Frontend Engineer",
+    company: "Synoloop Solutions",
+    description: `Volunteered as a Frontend Engineer at Synoloop Solutions, building responsive interfaces with React and Tailwind Css. Contributed to dynamic UI components, API integration and state management. Participated in agile sprints and code reviews, helping imporve design consistency and feature delivery speed. `,
+    technologies: ["React.js", "TypeScript"],
+  },
+  {
+    year: "November 2024 - April 2025",
     role: "Frontend Engineer",
     company: "Lagos State Ministry of Innovation, Science & Technology",
     description: `Single-handedly developed a Booking Appointment application to streamline staff scheduling, reducing manual efforts and minimizing booking conflicts.	Designed and implemented the user interface using React.js, Next.js, TypeScript and Tailwind CSS resulting in a 40% improvement in booking efficiency. Integrated real-time appointment tracking and automated SMS notifications, which reduced scheduling conflicts by 80%.`,
-    technologies: ["React.js", "Next.js", "TypeScript","Appwrite"],
+    technologies: ["React.js", "Next.js", "TypeScript", "Appwrite"],
   },
   {
     year: "2021 - 2024",
@@ -37,7 +44,7 @@ export const PROJECTS = [
   },
   {
     title:
-      "LASG - Ministry of Innovation, Science, & Technology - Booking Appoinment App",
+      "LASG - Ministry of Innovation, Science, & Technology - Booking Appoinment Platform",
     image: project2,
     description:
       "Developing a booking appointment application to streamline staff scheduling and reduce booking conflicts. The app features real-time appointment tracking, automated notifications, and an intuitive user interface, enhancing efficiency and user experience.",
