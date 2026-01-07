@@ -2,8 +2,8 @@ import project1 from "../assets/projects/FoodDel.png";
 import project2 from "../assets/projects/MIST.png";
 import project3 from "../assets/projects/EduCollege.png";
 import project4 from "../assets/projects/Nike.png";
-import project5 from "../assets/projects/Real Estate.png"; 
-
+import project5 from "../assets/projects/Real Estate.png";
+import project6 from "../assets/projects/sqoolr.png";
 
 export const HERO_CONTENT = `I am a passionate Frontend Developer with a strong focus on building scalable and high-performance web applications. With over 2 years of hands-on experience, I have honed my skills in React, Next.js, and Tailwind CSS, crafting seamless and responsive user interfaces. My expertise lies in translating design concepts into interactive and accessible web experiences, optimizing performance, and enhancing user engagement. I strive to develop innovative front-end solutions that elevate business growth and improve digital interactions.`;
 
@@ -11,7 +11,22 @@ export const ABOUT_TEXT = `I am a dedicated and versatile frontend developer wit
 
 export const EXPERIENCES = [
   {
-    year: "May 2025 - Present",
+    year: "June 2025 - December 2025",
+    role: "Frontend Engineer",
+    company: "Sqoolr",
+    description: `Volunteered as a Frontend Engineer at Synoloop Solutions, building responsive interfaces with React and Tailwind Css. Contributed to dynamic UI components, API integration and state management. Participated in agile sprints and code reviews, helping imporve design consistency and feature delivery speed. `,
+    technologies: [
+      "React.js",
+      "TypeScript",
+      "Tailwind",
+      "React Query",
+      "Redux Toolkit",
+      "Framer Motion",
+      "firebase",
+    ],
+  },
+  {
+    year: "May 2025 - June 2025",
     role: "Frontend Engineer",
     company: "Synoloop Solutions",
     description: `Volunteered as a Frontend Engineer at Synoloop Solutions, building responsive interfaces with React and Tailwind Css. Contributed to dynamic UI components, API integration and state management. Participated in agile sprints and code reviews, helping imporve design consistency and feature delivery speed. `,
@@ -24,16 +39,23 @@ export const EXPERIENCES = [
     description: `Single-handedly developed a Booking Appointment application to streamline staff scheduling, reducing manual efforts and minimizing booking conflicts.	Designed and implemented the user interface using React.js, Next.js, TypeScript and Tailwind CSS resulting in a 40% improvement in booking efficiency. Integrated real-time appointment tracking and automated SMS notifications, which reduced scheduling conflicts by 80%.`,
     technologies: ["React.js", "Next.js", "TypeScript", "Appwrite"],
   },
-  {
-    year: "2021 - 2024",
-    role: "Frontend Developer",
-    company: "Upwork",
-    description: `Designed and developed user interfaces for web applications using React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["React.js", "TypeScript", "Tailwind"],
-  },
+  // {
+  //   year: "2021 - 2024",
+  //   role: "Frontend Developer",
+  //   company: "Upwork",
+  //   description: `Designed and developed user interfaces for web applications using React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+  //   technologies: ["React.js", "TypeScript", "Tailwind"],
+  // },
 ];
 
 export const PROJECTS = [
+  {
+    title: "School Management Platform -Sqoolr",
+    image: project6,
+    description: "Collaborated with the development team to build and refine responsive user interfaces using React and Tailwind CSS. Implemented dynamic components and streamlined UI workflows, improving overall usability and performance. Participated in code reviews and agile sprints, contributing to faster feature delivery and improved design consistency.",
+    technologies: ["React.js", "CSS3"],
+    link: "https://app.sqoolr.ng/auth/login",
+  },
   {
     title: "Food Delivery Web Application",
     image: project1,
@@ -55,7 +77,7 @@ export const PROJECTS = [
       "Next.js",
       "Appwrite",
     ],
-    link:["https://mist-booking-appointment-platform-s.vercel.app/"]
+    link: ["https://mist-booking-appointment-platform-s.vercel.app/"],
   },
   {
     title: "College Website",
