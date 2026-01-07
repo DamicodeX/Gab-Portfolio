@@ -3,7 +3,7 @@ import project2 from "../assets/projects/MIST.png";
 import project3 from "../assets/projects/EduCollege.png";
 import project4 from "../assets/projects/Nike.png";
 import project5 from "../assets/projects/Real Estate.png";
-import project6 from "../assets/projects/sqoolr.png";
+import project6 from "../assets/projects/Sqoolr.png";
 
 export const HERO_CONTENT = `I am a passionate Frontend Developer with a strong focus on building scalable and high-performance web applications. With over 2 years of hands-on experience, I have honed my skills in React, Next.js, and Tailwind CSS, crafting seamless and responsive user interfaces. My expertise lies in translating design concepts into interactive and accessible web experiences, optimizing performance, and enhancing user engagement. I strive to develop innovative front-end solutions that elevate business growth and improve digital interactions.`;
 
