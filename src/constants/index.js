@@ -12,7 +12,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile frontend developer wit
 export const EXPERIENCES = [
   {
     year: "June 2025 - December 2025",
-    role: "Frontend Engineer",
+    role: "Frontend Developer",
     company: "Sqoolr",
     description: `Volunteered as a Frontend Engineer at Synoloop Solutions, building responsive interfaces with React and Tailwind Css. Contributed to dynamic UI components, API integration and state management. Participated in agile sprints and code reviews, helping imporve design consistency and feature delivery speed. `,
     technologies: [
